@@ -1,0 +1,5 @@
+<h2>Courses</h2>
+
+<ul><%@courses.each do |c|%>
+    <li><a href="/courses/<%=c.id%>"><%=c.name%></a></li>
+<%end%></ul>
